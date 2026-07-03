@@ -2,7 +2,6 @@
 ### A Hybrid AI Desktop Assistant (Online + Offline Mode)
 
 ![Status](https://img.shields.io/badge/status-stable-green)
-![License](https://img.shields.io/badge/license-MIT-blue)
 ![Python](https://img.shields.io/badge/python-3.10+-blue)
 
 DIABLO is a powerful, privacy-focused desktop assistant that combines **cloud intelligence** (Groq) with **local offline capabilities** (Ollama). It features native tool execution, vision analysis, and a sleek dark-themed UI.
