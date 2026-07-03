@@ -81,11 +81,11 @@ attach	  File context	    Click 📎 button
 1. Alt + D: Show/Hide Diablo HUD
 2. Win + Esc: Shutdown Diablo
 3. Esc: Hide HUD (when focused)
-
+```
 ### 🛠️ Building from Source
 
 To create a standalone executable:
-
+```bash
 pip install pyinstaller
 pyinstaller --clean --noconfirm --onefile --windowed --name Diablo --collect-all PyQt6 main.py
 ```
