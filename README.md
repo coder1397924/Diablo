@@ -76,7 +76,7 @@ hello	  Standard chat	    hello
 >>	      Python code	    >>print(2+2)
 /see	  Vision analysis	/see what's on my screen
 attach	  File context	    Click 📎 button
-'''
+
 -Hotkeys
 1. Alt + D: Show/Hide Diablo HUD
 2. Win + Esc: Shutdown Diablo
@@ -85,7 +85,7 @@ attach	  File context	    Click 📎 button
 ### 🛠️ Building from Source
 
 To create a standalone executable:
-```bash
+
 pip install pyinstaller
 pyinstaller --clean --noconfirm --onefile --windowed --name Diablo --collect-all PyQt6 main.py
 ```
